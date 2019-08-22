@@ -1,0 +1,323 @@
+/* Reset */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+
+/* Main Styling */
+
+html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+
+}
+
+/* Utilities */
+.container {
+    max-width: 70%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: #fff7d6
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #70324a;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all .5s ease-in-out
+}
+
+.btn-light {
+    background: #fff7d6;
+    color: #70324a;
+}
+
+.btn:hover {
+    background: #a5637b;
+    color: #fff7d6;
+}
+
+
+
+.bg-dark {
+    background-color: #70324a;
+    color: white;
+}
+
+.bg-light {
+    background-color: #a5637b;
+    color: white;
+}
+
+.bg-primary {
+    background-color: #fff7d6;
+    color: #70324a;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Padding */
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+
+
+
+/* Navbar Styling */
+.navbar {
+    background: #70324a;
+    color: white;
+    overflow: auto
+}
+
+.navbar a {
+    color: white
+}
+
+.navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+.navbar ul {
+    float: right;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    transition: all .5s ease-in-out
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    background-color: #a5637b;
+    color: #fff7d6;
+}
+
+/* Showcase styling */
+
+.showcase {
+    background: url('../images/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+.showcase .showcase-content {
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+.showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 2em
+}
+
+/* home info styling*/
+.home-info {
+    height: 400px;
+}
+
+.home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../images/photo-1.jpg') no-repeat;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50Px 30px;
+    overflow: hidden;
+}
+
+.home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+/* Features styling */
+
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 5px white;
+    border-end-start-radius: 5px;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* about page */
+
+
+.about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%
+}
+
+
+.about-info .info-right img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50%
+}
+
+.about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+.about-info h1 {
+    font-size: 40px;
+    color: #70324a
+}
+
+.testimonials {
+    height: 600px;
+    background: url('../images/test-bg.jpg') no-repeat center center/cover;
+    padding-top: 40px;
+    margin-top: 30px;
+
+}
+
+.testimonials h2 {
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+.testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: .8;
+    transition: all .8s ease-in-out
+}
+
+.testimonials .testimonial:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+/* Contact us */
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a5637b;
+    border-radius: 5px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border: 1px solid #70324a;
+    box-shadow: 0px 0px 3px #70324a;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+.contact-info {
+    margin-top: 40px;
+    width: 100%;
+    height: 300px;
+    background: #444;
+    color: white
+}
+
+
+/* footer */
+.footer {
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 20px;
+}
